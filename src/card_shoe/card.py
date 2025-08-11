@@ -1,4 +1,3 @@
-from constants import *
 from typing import *
 
 class Card:

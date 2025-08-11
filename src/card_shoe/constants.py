@@ -1,5 +1,0 @@
-CARD_RANKS = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
-CARD_SUITS = ["Clubs", "Diamonds", "Hearts", "Spades"]
-FACE_CARDS = CARD_RANKS[9:12]
-NUMBER_CARDS = CARD_RANKS[:9]
-ACE_RANK = CARD_RANKS[-1]
