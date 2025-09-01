@@ -1,9 +1,6 @@
 import random
 from typing import List
-from card import Card
-
-CARD_RANKS = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
-CARD_SUITS = ["Clubs", "Diamonds", "Hearts", "Spades"]
+from standard_playing_card import Card, CARD_RANKS, CARD_SUITS
 
 class CardShoe:
     def __init__(self, num_of_decks: int = 1) -> None:
